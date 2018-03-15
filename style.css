@@ -1,0 +1,55 @@
+body{
+  text-align: center;
+}
+
+
+body,header,h1{
+  margin: 0;
+}
+
+header{
+  background-color: #000;
+}
+
+h1{
+  font-size: 40px;
+  color: #fff;
+}
+
+h2{
+  font-size: 24px;
+}
+
+table{
+  margin: 20px auto;
+  font-size: 24px;
+  border-collapse: collapse;:
+}
+
+td{
+  border: 1px solid #000;
+}
+
+.display1{
+  display: flex;
+  justify-content: space-around;
+}
+
+.display2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.display3{
+  display: flex;
+  justify-content: space-around;
+}
+
+.mybox{
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  margin: 8px;
+}
